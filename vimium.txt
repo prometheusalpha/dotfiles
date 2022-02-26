@@ -1,0 +1,14 @@
+# Insert your preferred key mappings here.
+unmap m
+map h goBack
+map l goForward
+map q LinkHints.activateMode
+map Q LinkHints.activateModeToOpenInNewTab
+map e previousTab
+map r nextTab
+map m toggleMuteTab
+map s scrollDown
+map w scrollUp
+map a scrollPageUp
+map P openCopiedUrlInNewTab
+map d scrollPageDown
