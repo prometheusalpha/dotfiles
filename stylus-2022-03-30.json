@@ -1,0 +1,215 @@
+[
+  {
+    "settings": {
+      "openEditInWindow": false,
+      "openEditInWindow.popup": false,
+      "windowPosition": {},
+      "show-badge": true,
+      "disableAll": false,
+      "exposeIframes": false,
+      "newStyleAsUsercss": false,
+      "styleViaXhr": false,
+      "patchCsp": false,
+      "config.autosave": true,
+      "popup.breadcrumbs": true,
+      "popup.breadcrumbs.usePath": false,
+      "popup.enabledFirst": true,
+      "popup.stylesFirst": true,
+      "popup.autoResort": false,
+      "popup.borders": false,
+      "popup.findStylesInline": true,
+      "popup.findSort": "u",
+      "manage.onlyEnabled": false,
+      "manage.onlyLocal": false,
+      "manage.onlyUsercss": false,
+      "manage.onlyEnabled.invert": false,
+      "manage.onlyLocal.invert": false,
+      "manage.onlyUsercss.invert": false,
+      "manage.actions.expanded": true,
+      "manage.backup.expanded": true,
+      "manage.filters.expanded": true,
+      "manage.newUI": true,
+      "manage.newUI.favicons": false,
+      "manage.newUI.faviconsGray": true,
+      "manage.newUI.targets": 3,
+      "manage.newUI.sort": "title,asc",
+      "editor.options": {},
+      "editor.toc.expanded": true,
+      "editor.options.expanded": true,
+      "editor.lint.expanded": true,
+      "editor.publish.expanded": true,
+      "editor.lineWrapping": true,
+      "editor.smartIndent": true,
+      "editor.indentWithTabs": false,
+      "editor.tabSize": 4,
+      "editor.keyMap": "sublime",
+      "editor.theme": "default",
+      "editor.beautify": {
+        "selector_separator_newline": true,
+        "newline_before_open_brace": false,
+        "newline_after_open_brace": true,
+        "newline_between_properties": true,
+        "newline_before_close_brace": true,
+        "newline_between_rules": false,
+        "preserve_newlines": true,
+        "end_with_newline": false,
+        "indent_conditional": true
+      },
+      "editor.beautify.hotkey": "",
+      "editor.lintDelay": 300,
+      "editor.linter": "csslint",
+      "editor.lintReportDelay": 500,
+      "editor.matchHighlight": "token",
+      "editor.autoCloseBrackets": true,
+      "editor.autocompleteOnTyping": false,
+      "editor.contextDelete": null,
+      "editor.selectByTokens": true,
+      "editor.appliesToLineWidget": true,
+      "editor.livePreview": true,
+      "editor.colorpicker": true,
+      "editor.colorpicker.hexUppercase": false,
+      "editor.colorpicker.hotkey": "",
+      "editor.colorpicker.color": "",
+      "editor.colorpicker.maxHeight": 300,
+      "hotkey._execute_browser_action": "",
+      "hotkey.openManage": "",
+      "hotkey.styleDisableAll": "",
+      "sync.enabled": "none",
+      "iconset": 0,
+      "badgeDisabled": "#8B0000",
+      "badgeNormal": "#006666",
+      "popupWidth": 246,
+      "updateInterval": 24
+    }
+  },
+  {
+    "enabled": true,
+    "updateUrl": null,
+    "url": null,
+    "installDate": 1646990818674,
+    "name": "Font",
+    "sections": [
+      {
+        "code": ":not(i, code, pre, pre *, .fa, [class*=\"icon\"]) {\n    font-family: SF Pro Text !important;\n    text-rendering: optimizeLegibility;\n    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;\n}\n\ncode,\npre,\npre * {\n    font-family: SF Mono !important;\n}"
+      }
+    ],
+    "updateDate": 1647327658439,
+    "_id": "0da81de3-c09e-4ebb-8504-512d90171ccb",
+    "_rev": 1648550393528,
+    "id": 1,
+    "_usw": {},
+    "exclusions": [
+      "https://www.canva.com/*",
+      "https://miro.com/*",
+      "https://genk.vn/*",
+      "https://trello.com/*",
+      "https://www.mathway.com/*",
+      "https://tailwindcss.com/*",
+      "http://localhost:8080/*",
+      "https://passwords.google.com/*",
+      "https://calendar.google.com/*",
+      "https://ascii-tree.vercel.app/*",
+      "https://developer.android.com/*"
+    ]
+  },
+  {
+    "enabled": true,
+    "updateUrl": null,
+    "url": null,
+    "installDate": 1646996698101,
+    "name": "google.com",
+    "sections": [
+      {
+        "code": ".material-icons-extended, .devsite-expandable-nav > .devsite-nav-toggle {\n    font-family: 'Material Icons Extended' !important;\n}",
+        "domains": [
+          "google.com"
+        ]
+      }
+    ],
+    "updateDate": 1648550365717,
+    "_id": "5cebd686-d6f6-4443-9d7b-5fb51f140750",
+    "_rev": 1648550365717,
+    "id": 2,
+    "_usw": {}
+  },
+  {
+    "enabled": true,
+    "updateUrl": null,
+    "url": null,
+    "installDate": 1647052315060,
+    "name": "quizlet.com",
+    "sections": [
+      {
+        "code": ".TermText.lang-vi, .FormattedText.notranslate.lang-vi {\n    font-family: SF Pro Text !important;\n}",
+        "urlPrefixes": [
+          "https://quizlet.com/"
+        ]
+      }
+    ],
+    "updateDate": 1648004044690,
+    "_id": "34fc90d1-e2e3-4168-a534-14d84bd1d779",
+    "_rev": 1648004044690,
+    "id": 3,
+    "_usw": {}
+  },
+  {
+    "enabled": true,
+    "updateUrl": null,
+    "url": null,
+    "installDate": 1647222041193,
+    "name": "genk.vn",
+    "sections": [
+      {
+        "code": ":not(button,.GenkPlayer-icon-time-video){\n    font-family: SF Pro Text !important;\n}",
+        "domains": [
+          "genk.vn"
+        ]
+      }
+    ],
+    "updateDate": 1647222108322,
+    "_id": "8a3b98ca-28b9-4215-9057-3bedd08b42af",
+    "_rev": 1647222108322,
+    "id": 4,
+    "_usw": {}
+  },
+  {
+    "enabled": true,
+    "updateUrl": null,
+    "url": null,
+    "installDate": 1647305111280,
+    "name": "cmshn.fpt.edu.vn",
+    "sections": [
+      {
+        "code": ".navbar * {\n    font-weight: 500;\n}",
+        "domains": [
+          "cmshn.fpt.edu.vn"
+        ]
+      }
+    ],
+    "updateDate": 1647305163418,
+    "_id": "47a72616-8616-430c-8173-189af49a17f2",
+    "_rev": 1647305163418,
+    "id": 5,
+    "_usw": {}
+  },
+  {
+    "enabled": true,
+    "updateUrl": null,
+    "url": null,
+    "installDate": 1647305932749,
+    "name": "trello.com",
+    "sections": [
+      {
+        "code": ":not(.icon-sm) {\n    font-family: SF Pro Text !important;\n}",
+        "domains": [
+          "trello.com"
+        ]
+      }
+    ],
+    "updateDate": 1647305958377,
+    "_id": "9ac94ef6-0fde-46a6-89d4-975b4a7b615e",
+    "_rev": 1647305958377,
+    "id": 6,
+    "_usw": {}
+  }
+]
