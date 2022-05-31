@@ -90,12 +90,12 @@
     "name": "Font",
     "sections": [
       {
-        "code": ":not(i, code, pre, pre *, .fa, [class*=\"icon\"]) {\n    font-family: SF Pro Text !important;\n    text-rendering: optimizeLegibility;\n    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;\n}\n\ncode,\npre,\npre * {\n    font-family: SF Mono !important;\n}"
+        "code": ":not(i, code, pre, pre *, .fa, [class*=\"icon\"]) {\n    font-family: SF Pro Rounded !important;\n    text-rendering: optimizeLegibility;\n    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;\n}\n\ncode,\npre,\npre * {\n    font-family: SF Mono !important;\n}"
       }
     ],
-    "updateDate": 1647327658439,
+    "updateDate": 1653943847327,
     "_id": "0da81de3-c09e-4ebb-8504-512d90171ccb",
-    "_rev": 1648550393528,
+    "_rev": 1653943847327,
     "id": 1,
     "_usw": {},
     "exclusions": [
@@ -104,31 +104,39 @@
       "https://genk.vn/*",
       "https://trello.com/*",
       "https://www.mathway.com/*",
-      "https://tailwindcss.com/*",
       "http://localhost:8080/*",
       "https://passwords.google.com/*",
       "https://calendar.google.com/*",
       "https://ascii-tree.vercel.app/*",
-      "https://developer.android.com/*"
+      "https://developer.android.com/*",
+      "https://beta.nhaccuatui.com/",
+      "https://www.tensorflow.org/*",
+      "https://playvalorant.com/*",
+      "https://firebase.google.com/*",
+      "https://meowni.ca/*",
+      "https://developers.google.com/*",
+      "https://docs.google.com/*",
+      "https://app.moqups.com/*",
+      "https://mermaid-js.github.io/*"
     ]
   },
   {
-    "enabled": true,
+    "enabled": false,
     "updateUrl": null,
     "url": null,
     "installDate": 1646996698101,
     "name": "google.com",
     "sections": [
       {
-        "code": ".material-icons-extended, .devsite-expandable-nav > .devsite-nav-toggle {\n    font-family: 'Material Icons Extended' !important;\n}",
+        "code": ".material-icons-extended, .devsite-nav-toggle, .devsite-nav-toggle::before{\n    font-family: 'Material Icons Extended' !important;\n}",
         "domains": [
           "google.com"
         ]
       }
     ],
-    "updateDate": 1648550365717,
+    "updateDate": 1651190848439,
     "_id": "5cebd686-d6f6-4443-9d7b-5fb51f140750",
-    "_rev": 1648550365717,
+    "_rev": 1652154914755,
     "id": 2,
     "_usw": {}
   },
@@ -148,7 +156,7 @@
     ],
     "updateDate": 1648004044690,
     "_id": "34fc90d1-e2e3-4168-a534-14d84bd1d779",
-    "_rev": 1648004044690,
+    "_rev": 1648608088666,
     "id": 3,
     "_usw": {}
   },
@@ -168,7 +176,7 @@
     ],
     "updateDate": 1647222108322,
     "_id": "8a3b98ca-28b9-4215-9057-3bedd08b42af",
-    "_rev": 1647222108322,
+    "_rev": 1648608088666,
     "id": 4,
     "_usw": {}
   },
@@ -188,7 +196,7 @@
     ],
     "updateDate": 1647305163418,
     "_id": "47a72616-8616-430c-8173-189af49a17f2",
-    "_rev": 1647305163418,
+    "_rev": 1652578409145,
     "id": 5,
     "_usw": {}
   },
@@ -208,8 +216,31 @@
     ],
     "updateDate": 1647305958377,
     "_id": "9ac94ef6-0fde-46a6-89d4-975b4a7b615e",
-    "_rev": 1647305958377,
+    "_rev": 1652493456014,
     "id": 6,
+    "_usw": {},
+    "exclusions": [
+      "https://trello.com/*"
+    ]
+  },
+  {
+    "enabled": true,
+    "updateUrl": null,
+    "url": null,
+    "installDate": 1650809927007,
+    "name": "youtube.com",
+    "sections": [
+      {
+        "code": "#top-level-buttons-computed > ytd-button-renderer:nth-child(5) > a {\n    display: none;\n}",
+        "domains": [
+          "youtube.com"
+        ]
+      }
+    ],
+    "updateDate": 1650809927007,
+    "_id": "89a52d57-180b-4d59-a05d-805078fafc4e",
+    "_rev": 1651195921076,
+    "id": 7,
     "_usw": {}
   }
 ]
