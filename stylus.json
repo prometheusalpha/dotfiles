@@ -7,17 +7,20 @@
       "show-badge": true,
       "disableAll": false,
       "exposeIframes": false,
+      "exposeStyleName": false,
       "newStyleAsUsercss": false,
       "styleViaXhr": false,
       "patchCsp": false,
       "config.autosave": true,
+      "schemeSwitcher.enabled": "system",
+      "schemeSwitcher.nightStart": "18:00",
+      "schemeSwitcher.nightEnd": "06:00",
       "popup.breadcrumbs": true,
       "popup.breadcrumbs.usePath": false,
       "popup.enabledFirst": true,
       "popup.stylesFirst": true,
       "popup.autoResort": false,
       "popup.borders": false,
-      "popup.findStylesInline": true,
       "popup.findSort": "u",
       "manage.onlyEnabled": false,
       "manage.onlyLocal": false,
@@ -42,18 +45,18 @@
       "editor.smartIndent": true,
       "editor.indentWithTabs": false,
       "editor.tabSize": 4,
-      "editor.keyMap": "sublime",
+      "editor.keyMap": "default",
       "editor.theme": "default",
       "editor.beautify": {
-        "selector_separator_newline": true,
-        "newline_before_open_brace": false,
+        "end_with_newline": false,
+        "indent_conditional": true,
         "newline_after_open_brace": true,
-        "newline_between_properties": true,
         "newline_before_close_brace": true,
+        "newline_before_open_brace": false,
+        "newline_between_properties": true,
         "newline_between_rules": false,
         "preserve_newlines": true,
-        "end_with_newline": false,
-        "indent_conditional": true
+        "selector_separator_newline": true
       },
       "editor.beautify.hotkey": "",
       "editor.lintDelay": 300,
@@ -62,9 +65,10 @@
       "editor.matchHighlight": "token",
       "editor.autoCloseBrackets": true,
       "editor.autocompleteOnTyping": false,
-      "editor.contextDelete": null,
+      "editor.contextDelete": false,
       "editor.selectByTokens": true,
       "editor.appliesToLineWidget": true,
+      "editor.autosaveDraft": 10,
       "editor.livePreview": true,
       "editor.colorpicker": true,
       "editor.colorpicker.hexUppercase": false,
@@ -78,33 +82,36 @@
       "iconset": 0,
       "badgeDisabled": "#8B0000",
       "badgeNormal": "#006666",
+      "headerWidth.edit": 280,
+      "headerWidth.install": 280,
+      "headerWidth.manage": 280,
       "popupWidth": 246,
       "updateInterval": 24
+    },
+    "order": {
+      "main": [],
+      "prio": []
     }
   },
   {
     "enabled": true,
-    "updateUrl": null,
-    "url": null,
     "installDate": 1646990818674,
     "name": "Font",
     "sections": [
       {
-        "code": ":not(i, code, pre, pre *, .fa, [class*=\"icon\"]) {\n    font-family: SF Pro Rounded !important;\n    text-rendering: optimizeLegibility;\n    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;\n}\n\ncode,\npre,\npre * {\n    font-family: SF Mono !important;\n}"
+        "code": ":not(i, code, pre, pre *, .fa, [class*=\"ic\"]) {\n    font-family: SF Pro Text !important;\n    text-rendering: optimizeLegibility;\n    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;\n}\n\ncode,\npre,\npre * {\n    font-family: SF Mono !important;\n}"
       }
     ],
-    "updateDate": 1653943847327,
+    "updateDate": 1655550002190,
     "_id": "0da81de3-c09e-4ebb-8504-512d90171ccb",
-    "_rev": 1653943847327,
+    "_rev": 1656988899836,
     "id": 1,
-    "_usw": {},
     "exclusions": [
       "https://www.canva.com/*",
       "https://miro.com/*",
       "https://genk.vn/*",
       "https://trello.com/*",
       "https://www.mathway.com/*",
-      "http://localhost:8080/*",
       "https://passwords.google.com/*",
       "https://calendar.google.com/*",
       "https://ascii-tree.vercel.app/*",
@@ -117,13 +124,12 @@
       "https://developers.google.com/*",
       "https://docs.google.com/*",
       "https://app.moqups.com/*",
-      "https://mermaid-js.github.io/*"
+      "https://mermaid-js.github.io/*",
+      "https://mechill.net/*"
     ]
   },
   {
     "enabled": false,
-    "updateUrl": null,
-    "url": null,
     "installDate": 1646996698101,
     "name": "google.com",
     "sections": [
@@ -136,14 +142,11 @@
     ],
     "updateDate": 1651190848439,
     "_id": "5cebd686-d6f6-4443-9d7b-5fb51f140750",
-    "_rev": 1652154914755,
-    "id": 2,
-    "_usw": {}
+    "_rev": 1655044260088,
+    "id": 2
   },
   {
     "enabled": true,
-    "updateUrl": null,
-    "url": null,
     "installDate": 1647052315060,
     "name": "quizlet.com",
     "sections": [
@@ -156,14 +159,11 @@
     ],
     "updateDate": 1648004044690,
     "_id": "34fc90d1-e2e3-4168-a534-14d84bd1d779",
-    "_rev": 1648608088666,
-    "id": 3,
-    "_usw": {}
+    "_rev": 1655044260088,
+    "id": 3
   },
   {
     "enabled": true,
-    "updateUrl": null,
-    "url": null,
     "installDate": 1647222041193,
     "name": "genk.vn",
     "sections": [
@@ -176,14 +176,11 @@
     ],
     "updateDate": 1647222108322,
     "_id": "8a3b98ca-28b9-4215-9057-3bedd08b42af",
-    "_rev": 1648608088666,
-    "id": 4,
-    "_usw": {}
+    "_rev": 1655044260088,
+    "id": 4
   },
   {
     "enabled": true,
-    "updateUrl": null,
-    "url": null,
     "installDate": 1647305111280,
     "name": "cmshn.fpt.edu.vn",
     "sections": [
@@ -196,14 +193,11 @@
     ],
     "updateDate": 1647305163418,
     "_id": "47a72616-8616-430c-8173-189af49a17f2",
-    "_rev": 1652578409145,
-    "id": 5,
-    "_usw": {}
+    "_rev": 1655044260088,
+    "id": 5
   },
   {
     "enabled": true,
-    "updateUrl": null,
-    "url": null,
     "installDate": 1647305932749,
     "name": "trello.com",
     "sections": [
@@ -216,17 +210,14 @@
     ],
     "updateDate": 1647305958377,
     "_id": "9ac94ef6-0fde-46a6-89d4-975b4a7b615e",
-    "_rev": 1652493456014,
+    "_rev": 1655044260088,
     "id": 6,
-    "_usw": {},
     "exclusions": [
       "https://trello.com/*"
     ]
   },
   {
     "enabled": true,
-    "updateUrl": null,
-    "url": null,
     "installDate": 1650809927007,
     "name": "youtube.com",
     "sections": [
@@ -239,8 +230,7 @@
     ],
     "updateDate": 1650809927007,
     "_id": "89a52d57-180b-4d59-a05d-805078fafc4e",
-    "_rev": 1651195921076,
-    "id": 7,
-    "_usw": {}
+    "_rev": 1655044260088,
+    "id": 7
   }
 ]
